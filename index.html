@@ -12,55 +12,65 @@
         p, ul { margin-bottom: 15px; }
         .contact-info { background: #e8f4fd; padding: 15px; border-left: 4px solid #3498db; margin-top: 30px; }
         footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #7f8c8d; }
+        a { color: #217dbb; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Política de Privacidad de Lectornauta</h1>
-        <p><strong>Última actualización:</strong> 29 de Julio de 2026</p>
+        <p><strong>Última actualización:</strong> 24 de noviembre de 2026</p>
+        <p><strong>Versión de la aplicación:</strong> 1.4.3</p>
 
-        <p>Lectornauta ("nosotros", "la Aplicación") es una herramienta diseñada para la gestión personal de bibliotecas de libros. Esta política describe cómo manejamos la información y nuestro compromiso con tu privacidad.</p>
+        <p>Lectornauta es una aplicación para gestionar bibliotecas personales de libros. Esta política explica qué datos se guardan, cuándo salen del dispositivo y qué servicios externos participan.</p>
 
-        <h2>1. Propiedad y Control de los Datos (Privacidad Local)</h2>
-        <p>Lectornauta sigue el principio de <strong>Privacidad por Diseño</strong>. Toda la información sobre tus libros, notas y progreso de lectura se almacena exclusivamente en la base de datos local de tu dispositivo. <strong>El desarrollador no tiene acceso, no recopila ni almacena ninguno de tus datos personales o bibliográficos en servidores externos.</strong></p>
+        <h2>1. Datos guardados en el dispositivo</h2>
+        <p>La biblioteca, el progreso de lectura, las sesiones, las citas, las notas, las preferencias y los archivos asociados se guardan localmente en el dispositivo. Android puede incluir parte de estos datos en la copia de seguridad del dispositivo según la configuración del sistema.</p>
 
-        <h2>2. Sincronización en la Nube y Copias de Seguridad</h2>
-        <p>La aplicación ofrece funciones opcionales para sincronizar tus datos utilizando tus propias cuentas de almacenamiento. Este proceso es directo entre tu dispositivo y el proveedor:</p>
+        <h2>2. Copias y sincronización en la nube</h2>
+        <p>Esta función es opcional y se inicia desde la aplicación. Cuando se usa, Lectornauta sube la base de datos de la biblioteca y los archivos asociados a la cuenta elegida de Google Drive, Dropbox o OneDrive. Las copias se guardan en el espacio privado o de aplicación disponible para esa cuenta, según el proveedor y el método de autenticación. El proveedor puede conservar metadatos técnicos y aplica sus propias condiciones y política de privacidad.</p>
+        <p>Para autorizar el acceso, Google Sign-In, Dropbox y Microsoft reciben los datos necesarios para identificar la cuenta y emitir la autorización. La aplicación conserva las credenciales en almacenamiento protegido y permite desvincular el proveedor desde Ajustes.</p>
+
+        <h2>3. Búsqueda y enriquecimiento de libros</h2>
+        <p>Al buscar o completar información bibliográfica, la aplicación puede enviar el título, el autor o el ISBN a Google Books, Open Library, Apple Books o Lecturalia. Estos servicios devuelven datos bibliográficos y aplican sus propias políticas. Las portadas y otros recursos remotos pueden cargarse desde sus servidores.</p>
+        <p>Al abrir una tienda externa, la navegación pasa al sitio correspondiente. Algunos enlaces pueden incluir identificadores de afiliación; la aplicación no recibe los datos de pago de esas tiendas.</p>
+
+        <h2>4. Publicidad, Firebase y diagnósticos</h2>
+        <p>La aplicación integra AdMob y Firebase Remote Config, Analytics y Crashlytics.</p>
         <ul>
-            <li><strong>Servicios:</strong> Google Drive, Dropbox y Microsoft OneDrive.</li>
-            <li><strong>Sin Intermediarios:</strong> La Aplicación se conecta directamente con el servicio. Tus credenciales y archivos nunca pasan por el desarrollador.</li>
-            <li><strong>Permisos Limitados:</strong> Solo accedemos a una carpeta específica creada por la aplicación ("App Data Folder"), sin acceso al resto de tus archivos personales.</li>
+            <li><strong>AdMob:</strong> puede procesar identificadores del dispositivo o de publicidad, información de la aplicación y datos técnicos para mostrar y medir anuncios, según la región y las opciones elegidas en el formulario de consentimiento.</li>
+            <li><strong>Firebase Analytics:</strong> puede procesar eventos de uso y datos técnicos de la aplicación para medir su funcionamiento y uso.</li>
+            <li><strong>Firebase Remote Config:</strong> puede recibir identificadores técnicos y descargar la configuración que controla anuncios, funciones y proveedores.</li>
+            <li><strong>Firebase Crashlytics:</strong> puede recibir informes de fallos, trazas y datos técnicos del dispositivo y de la aplicación. Los informes creados por el diagnóstico interno se limitan a información técnica y no incluyen libros, cuentas, nombres de archivos ni respuestas de servidores.</li>
         </ul>
+        <p>El consentimiento publicitario se solicita mediante UMP cuando corresponde. Las opciones se pueden revisar desde <strong>Ajustes → Privacidad → Opciones de privacidad</strong>.</p>
 
-        <h2>3. Pagos y Compras Integradas</h2>
-        <p>Ofrecemos funciones Premium a través de compras dentro de la aplicación:</p>
-        <ul>
-            <li><strong>Google Play Billing:</strong> Todos los pagos son procesados de forma segura por Google. No recopilamos ni almacenamos datos de tarjetas de crédito o información bancaria.</li>
-        </ul>
+        <h2>5. Compras</h2>
+        <p>Las compras se procesan mediante Google Play Billing. Lectornauta recibe el producto, el estado de la compra, el token de compra y las fechas necesarias para activar el acceso. Google Play procesa los datos de pago; Lectornauta no recibe el número de tarjeta.</p>
 
-        <h2>4. Publicidad y Vídeos Premiados</h2>
-        <p>Para ofrecer funciones gratuitas, la aplicación utiliza servicios de publicidad (como Google AdMob) que permiten obtener tiempo Premium mediante la visualización de vídeos. Estos proveedores pueden usar identificadores de publicidad anónimos para mostrar anuncios relevantes.</p>
+        <h2>6. Exportación, informes y soporte</h2>
+        <p>Las exportaciones y los informes solo se comparten cuando la persona usuaria elige una aplicación o servicio mediante el selector de Android. El informe técnico puede incluir versión, versión de Android, fabricante, modelo, ABI, idioma y eventos técnicos sanitizados.</p>
 
-        <h2>5. Enlace a Tiendas y Afiliados</h2>
-        <p>La aplicación facilita enlaces a tiendas externas (Amazon, Audible, Fnac, Casa del Libro, Kobo, Storytel, entre otras):</p>
-        <ul>
-            <li><strong>Afiliación:</strong> Participamos en programas de afiliados (como el de Amazon). Si realizas una compra a través de estos enlaces, podríamos recibir una comisión sin coste adicional para ti.</li>
-            <li><strong>Navegación de Terceros:</strong> Al pulsar estos enlaces, entrarás en sitios web con sus propias políticas de privacidad, de las cuales no somos responsables.</li>
-        </ul>
+        <h2>7. Conservación y eliminación</h2>
+        <p>Los datos locales se conservan hasta que la persona usuaria los borra, desinstala la aplicación o elimina sus copias. Las copias en la nube deben eliminarse desde la función de la aplicación o desde el proveedor correspondiente. Los datos tratados por Google, Dropbox, Microsoft, los servicios bibliográficos y los SDK de publicidad o Firebase están sujetos a sus propios plazos y políticas.</p>
 
-        <h2>6. Servicios de Búsqueda</h2>
-        <p>Utilizamos la API de Google Books para recuperar información de libros. Al realizar una búsqueda, los términos consultados se envían a Google de acuerdo con su política de privacidad.</p>
+        <p>Lectornauta no vende los datos de las personas usuarias.</p>
 
         <div class="contact-info">
-            <h2>7. Contacto</h2>
-            <p>Si tienes cualquier duda sobre esta política, puedes contactar con el desarrollador:</p>
-            <p><strong>Desarrollador:</strong> Lacrator</p>
-            <p><strong>Email:</strong> <a href="mailto:rumd0079@gmail.com">rumd0079@gmail.com</a></p>
+            <strong>Contacto:</strong> Para solicitar ayuda sobre los datos tratados por la aplicación, escribe a <a href="mailto:rumd0079@gmail.com">rumd0079@gmail.com</a>.
         </div>
 
-        <footer>
-            &copy; 2026 Lectornauta - Todos los derechos reservados.
-        </footer>
+        <h2>8. Proveedores externos</h2>
+        <ul>
+            <li><a href="https://policies.google.com/privacy">Google Play, Google Drive y Google</a></li>
+            <li><a href="https://policies.google.com/technologies/partner-sites">Google AdMob</a></li>
+            <li><a href="https://firebase.google.com/support/privacy">Firebase</a></li>
+            <li><a href="https://www.dropbox.com/privacy">Dropbox</a></li>
+            <li><a href="https://privacy.microsoft.com/privacystatement">Microsoft OneDrive</a></li>
+            <li><a href="https://openlibrary.org/privacy">Open Library</a></li>
+            <li><a href="https://www.apple.com/legal/privacy/">Apple</a></li>
+            <li><a href="https://www.lecturalia.com/">Lecturalia</a></li>
+        </ul>
     </div>
+    <footer>&copy; 2026 Lectornauta</footer>
 </body>
 </html>
